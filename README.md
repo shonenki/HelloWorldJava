@@ -1,2 +1,13 @@
-# testJava
-Hello World de Java. Incluye definición de clases, métodos, constructor, variables, operadores lógicos, ciclos, condicionales, arreglos.
+# HelloWorldJava
+
+Pequeño programa para iniciación en Java, incluye ejemplos simples de:
+- Definición de clases
+- Métodos
+- Constructores
+- Definición y tipo de variables
+- Uso de operadores lógicos y matemáticos
+- Ciclos (do-while / for)
+- Condicionales (if / switch)
+- Impresión de resultados por pantalla
+
+El código está documentado totalmente en español con explicaciones detalladas, ideal para estudiantes o programadores que estén iniciándose con Java. Puede ser abierto y ejecutado desde el IDE NetBeans.
