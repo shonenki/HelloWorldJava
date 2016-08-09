@@ -10,4 +10,4 @@ Pequeño programa para iniciación en Java, incluye ejemplos simples de:
 - Condicionales (if / switch)
 - Impresión de resultados por pantalla
 
-El código está documentado totalmente en español con explicaciones detalladas, ideal para estudiantes o programadores que estén iniciándose con Java. Puede ser abierto y ejecutado desde el IDE NetBeans.
+El código está documentado totalmente en español con explicaciones detalladas, ideal para estudiantes o programadores que estén iniciándose con Java. Puede ser accedido y ejecutado desde el IDE NetBeans.
