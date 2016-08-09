@@ -5,7 +5,7 @@ public class testJava {
     //enteros
     int resSuma = 0, caso = 0;
     //strings
-    String mensaje = "Hello World!";
+    String mensaje = "Hello World!. Impreso desde una variable global definida como String";
     //arreglos
     Integer[] arreglo = new Integer[10];
     
@@ -38,10 +38,11 @@ public class testJava {
     }
     
     private void ifValida(){
-         //Valida si la variable global resSuma no es igual a 3
-         //Esto dependerá del resultado que se origien del método setSuma
+        //Valida si la variable global resSuma no es igual a 3
+        //Esto dependerá del resultado que se origien del método setSuma
+        //Si se desea validr si es igual a un resultado el operado a utilizar es == en lugar de !=
         if(this.resSuma != 3){
-            System.out.println("No es igual a 3");
+            System.out.println("El contenido de la variable resSuma no es igual a 3");
         }
     }
     
@@ -62,6 +63,7 @@ public class testJava {
     
     private void cicloWhile(){
         //arma la tabla del 9
+        System.out.println("Tabla de multiplicar del 9");
         int contador = 0;
         do{
             //imprime resultados en un ciclo. ej: 9x2 = 18
@@ -76,6 +78,7 @@ public class testJava {
             //devuelve un número random del 1 al 100 y lo asigna a la variable arreglo en el indice que j determine
             this.arreglo[j] = (int)(Math.random() *100+1);
         }
+        System.out.println("Resultados del arreglo:");
         //recorre e imprime el arreglo previamente creado
         for(int j=0; j<10; j++){
             System.out.println(this.arreglo[j]);
